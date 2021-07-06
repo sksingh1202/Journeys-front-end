@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS-JS</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Open+Sans:wght@800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+</head>
+<body>
+    <!-- Responsive -->
+    <div class="relative min-h-screen md:flex">
+
+        <div class="bg-gray-800 text-gray-100 flex justify-between md:hidden">
+            <!-- logo -->
+            <a href="#" class="block p-4 text-white font-bold">Sidebarbar</a>
+
+
+        <!-- mobile menu button -->
+        <button class="mobile-menu-button p-4 focus:outline-none focus:bg-gray-700">
+            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar text-blue-100 w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out"
+         style="background: #FFFFFF; border: 1.62px solid #EEF2F5; box-sizing: border-box; z-index: 2; ">
+        <div class="block px-4" style="font-weight: bold;font-size: 16px;line-height: 19px;color:#9797AA;letter-spacing: 0.03em;text-transform: uppercase;">
+            MODERATORS
+        </div>
+        <nav>
+            <a href="#" class="block pb-2.5 px-4">
+              <div style="display:flex;">
+                <img src="images/Caleb.png" alt="" class="rounded-full mr-2" style="width: 25.85px;height: 25.85px;">    
+                <span style="font-size: 18.76px;font-weight: 700;line-height: 23px; color:#6B7683;">Caleb</span>    
+              </div>
+            </a>
+            <a href="#" class="block py-2.5 px-4">
+                <div style="display:flex;">
+                  <img src="images/Rony.png" alt="" class="rounded-full mr-2" style="width: 25.85px;height: 25.85px;">    
+                  <span style="font-size: 18.76px;font-weight: 700;line-height: 23px; color:#6B7683;">Rony</span>    
+                </div>
+            </a>
+            <a href="#" class="block py-2.5 px-4">
+                <div style="display:flex;">
+                  <img src="images/Nathan.png" alt="" class="rounded-full mr-2" style="width: 25.85px;height: 25.85px;">    
+                  <span style="font-size: 18.76px;font-weight: 700;line-height: 23px; color:#6B7683;">Nathan</span>    
+                </div>
+            </a>
+          </nav>
+        <div class="block px-4" style="font-weight: bold;font-size: 16px;line-height: 19px;color:#9797AA;letter-spacing: 0.03em;text-transform: uppercase;">
+            TOP CONTRIBUTORS
+        </div>
+        <nav>
+            <a href="#" class="block pb-2.5 px-4">
+              <div style="display:flex;">
+                <img src="images/Caleb.png" alt="" class="rounded-full mr-2" style="width: 25.85px;height: 25.85px;">    
+                <span style="font-size: 18.76px;font-weight: 700;line-height: 23px; color:#6B7683;">Caleb</span>    
+              </div>
+            </a>
+            <a href="#" class="block py-2.5 px-4">
+                <div style="display:flex;">
+                  <img src="images/Rony.png" alt="" class="rounded-full mr-2" style="width: 25.85px;height: 25.85px;">    
+                  <span style="font-size: 18.76px;font-weight: 700;line-height: 23px; color:#6B7683;">Rony</span>    
+                </div>
+            </a>
+            <a href="#" class="block py-2.5 px-4">
+                <div style="display:flex;">
+                  <img src="images/Nathan.png" alt="" class="rounded-full mr-2" style="width: 25.85px;height: 25.85px;">    
+                  <span style="font-size: 18.76px;font-weight: 700;line-height: 23px; color:#6B7683;">Nathan</span>    
+                </div>
+            </a>
+          </nav>
+          <div class="block px-4 pb-3" style="font-weight: bold;font-size: 16px;line-height: 19px;color:#9797AA;letter-spacing: 0.03em;text-transform: uppercase;">
+            RELATED COMMUNITIES
+          </div>
+
+
+          <div class="bg-white rounded-b mx-4 flex" style="margin-top:10px; margin-right:80px; border: 0.476916px solid #EEF2F5;box-shadow: 0px 1.17757px 7.06542px rgba(121, 20, 20, 0.12);border-radius: 4.71028px;">
+            <div class="bg-white"  style="border-right: 2px solid #EEF2F5">
+                <img src="images/Figmalogo.png" alt="" class="rounded-full m-2" style="border: 1.76636px solid #EEF2F5;">
+            </div>
+            <div >
+              
+              
+              <div>
+                <p class="flex items-center p-2" style="font-weight: 500;font-size: 14px;line-height: 17px;color: #3A4859;">
+                 Figma
+                </p>
+                <div class="px-2" style="font-weight: normal;font-size: 9px;line-height: 10px;color:#9AA7B6">53 members</div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-b mx-4 flex" style="margin-top:10px; margin-right:80px; border: 0.476916px solid #EEF2F5;box-shadow: 0px 1.17757px 7.06542px rgba(121, 20, 20, 0.12);border-radius: 4.71028px;">
+            <div class="bg-white"  style="border-right: 2px solid #EEF2F5">
+                <img src="images/Figmalogo.png" alt="" class="rounded-full m-2" style="border: 1.76636px solid #EEF2F5;">
+            </div>
+            <div >
+              
+              
+              <div>
+                <p class="flex items-center p-2" style="font-weight: 500;font-size: 14px;line-height: 17px;color: #3A4859;">
+                 Figma
+                </p>
+                <div class="px-2" style="font-weight: normal;font-size: 9px;line-height: 10px;color:#9AA7B6">53 members</div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-b mx-4 flex" style="margin-top:10px; margin-right:80px; border: 0.476916px solid #EEF2F5;box-shadow: 0px 1.17757px 7.06542px rgba(121, 20, 20, 0.12);border-radius: 4.71028px;">
+            <div class="bg-white"  style="border-right: 2px solid #EEF2F5">
+                <img src="images/Figmalogo.png" alt="" class="rounded-full m-2" style="border: 1.76636px solid #EEF2F5;">
+            </div>
+            <div >
+              
+              
+              <div>
+                <p class="flex items-center p-2" style="font-weight: 500;font-size: 14px;line-height: 17px;color: #3A4859;">
+                 Figma
+                </p>
+                <div class="px-2" style="font-weight: normal;font-size: 9px;line-height: 10px;color:#9AA7B6">53 members</div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-b mx-4 flex" style="margin-top:10px; margin-right:80px; border: 0.476916px solid #EEF2F5;box-shadow: 0px 1.17757px 7.06542px rgba(121, 20, 20, 0.12);border-radius: 4.71028px;">
+            <div class="bg-white"  style="border-right: 2px solid #EEF2F5">
+                <img src="images/Figmalogo.png" alt="" class="rounded-full m-2" style="border: 1.76636px solid #EEF2F5;">
+            </div>
+            <div >
+              
+              
+              <div>
+                <p class="flex items-center p-2" style="font-weight: 500;font-size: 14px;line-height: 17px;color: #3A4859;">
+                 Figma
+                </p>
+                <div class="px-2" style="font-weight: normal;font-size: 9px;line-height: 10px;color:#9AA7B6">53 members</div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-b mx-4 flex" style="margin-top:10px; margin-right:80px; border: 0.476916px solid #EEF2F5;box-shadow: 0px 1.17757px 7.06542px rgba(121, 20, 20, 0.12);border-radius: 4.71028px;">
+            <div class="bg-white"  style="border-right: 2px solid #EEF2F5">
+                <img src="images/Figmalogo.png" alt="" class="rounded-full m-2" style="border: 1.76636px solid #EEF2F5;">
+            </div>
+            <div >
+              
+              
+              <div>
+                <p class="flex items-center p-2" style="font-weight: 500;font-size: 14px;line-height: 17px;color: #3A4859;">
+                 Figma
+                </p>
+                <div class="px-2" style="font-weight: normal;font-size: 9px;line-height: 10px;color:#9AA7B6">53 members</div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-b mx-4 flex" style="margin-top:10px; margin-right:80px; border: 0.476916px solid #EEF2F5;box-shadow: 0px 1.17757px 7.06542px rgba(121, 20, 20, 0.12);border-radius: 4.71028px;">
+            <div class="bg-white"  style="border-right: 2px solid #EEF2F5">
+                <img src="images/Figmalogo.png" alt="" class="rounded-full m-2" style="border: 1.76636px solid #EEF2F5;">
+            </div>
+            <div >
+              
+              
+              <div>
+                <p class="flex items-center p-2" style="font-weight: 500;font-size: 14px;line-height: 17px;color: #3A4859;">
+                 Figma
+                </p>
+                <div class="px-2" style="font-weight: normal;font-size: 9px;line-height: 10px;color:#9AA7B6">53 members</div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Main content -->
+        <div class="flex-1 p-10 text-2xl font-bold">
+          Hello World
+        </div>
+      
+    </div>
+</body>
+<!-- Javascript -->
+<script>
+    const btn = document.querySelector(".mobile-menu-button");
+const sidebar = document.querySelector(".sidebar");
+
+// add our event listener for the click
+btn.addEventListener("click", () => {
+  sidebar.classList.toggle("-translate-x-full");
+});
+</script>
